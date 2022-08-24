@@ -1,0 +1,131 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Circular Std', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    height: 80px;
+    padding: 0px 5%;
+    align-items: center;
+}
+
+#navbar {
+    background-image: url("https://assets-global.website-files.com/6257f25…/6257f25…_lines.svg"), radial-gradient(circle farthest-corner at 50% 120%, #9476d4, #7738d6 46%);
+    background-position: 50% 100%, 0 0;
+    background-size: cover, auto;
+    background-repeat: no-repeat, repeat;
+    height: 120vh;
+    background-attachment: fixed;
+    border-bottom-left-radius: 160px;
+    /* color: white; */
+}
+
+.logo img {
+    width: 6rem;
+}
+.fa-solid{
+    margin-right: 8px;
+}
+
+.flex ul li {
+    display: inline-block;
+}
+
+.flex ul li a {
+    font-weight: 600;
+}
+
+.flex ul li a:hover {
+    color: #9476d4;
+}
+
+.flex ul li a {
+    color: white;
+    display: block;
+    padding: 0 15px;
+    line-height: 30px;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.flex ul ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.flex ul li:hover>ul>li>a {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 15px;
+}
+
+.flex ul li:hover>ul>li>a:hover {
+    color: #7738d6;
+    background-color: rgb(230, 230, 230);
+}
+
+.flex ul li:hover>ul {
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: .2s linear;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 2;
+}
+
+
+.flex ul ul li {
+    display: list-item;
+    position: relative;
+    border-top: none;
+}
+
+.flex ul li #free_trial {
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #001141;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.flex ul li #free_trial:hover {
+    transition: 350ms;
+    background-color: #001141;
+    color: white;
+}
+
+.flex ul li #about {
+    width: 95%;
+    vertical-align: middle;
+}
+
+.flex ul li #about:hover {
+    width: 110%;
+    transition-property: width;
+    transition-duration: .5s;
+}
+
+.fa-brands{
+    margin-right: 8px;
+}
+
