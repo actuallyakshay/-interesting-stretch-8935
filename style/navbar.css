@@ -12,7 +12,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border: 2px solid white; */
     height: 80px;
     padding: 0px 5%;
     align-items: center;
@@ -26,9 +25,7 @@
     height: 120vh;
     background-attachment: fixed;
     border-bottom-left-radius: 160px;
-    /* color: white; */
 }
-
 .logo img {
     width: 6rem;
 }

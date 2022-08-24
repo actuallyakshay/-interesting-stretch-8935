@@ -202,6 +202,10 @@
     color: white;
 }
 
+#navbar {
+    background-color: white;
+}
+
 #btn:hover {
     cursor: pointer;
     background-color: #7738d6;
@@ -238,7 +242,6 @@
     font-size: 15px;
     margin-top: 10px;
     line-height: 24px;
-    /* font-family: Circularstd, sans-serif; */
     margin-bottom: 20px;
 }
 

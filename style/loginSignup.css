@@ -1,9 +1,12 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    font-family: circularsted, sans-serif;
-}
+@import url('http://fonts.cdnfonts.com/css/circular-std');
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Circular Std', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
 a {
     text-decoration: none;
     color: #00d68c;
@@ -230,4 +233,15 @@ a {
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     background-color: #00d68c;
     color: white;
+}
+
+#options #box2 input {
+    height: 60px;
+    width: 79%;
+    border-radius: 16px;
+    border: none;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    padding-left: 15px;
+    font-size: medium;
+    outline: none;
 }
