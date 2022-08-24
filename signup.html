@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image"
+        href="https://d1luwo5u9zpc4i.cloudfront.net/assets/memory_apps/timely_icon-0009454e9497f1cb2a0f9042037156a62c31421032858278d5002aae979084a2.svg">
+    <title>Register your Timely account - Timely</title>
+    <link rel="stylesheet" href="./style/loginSignup.css">
+</head>
+
+<body>
+    <div id="navbar_container"></div>
+
+    <div id="options">
+        <div id="box1">
+            <h2>Top rated time tracking</h3>
+                <img src="https://d1luwo5u9zpc4i.cloudfront.net/assets/g2/g2_badge_leader_2022-4989cf71ff2b88b58b3df99236eb51391394fb1b9aba84d52b9c6d200f326f86.svg"
+                    alt="">
+                <img src="https://d1luwo5u9zpc4i.cloudfront.net/assets/g2/g2_badge_users_love_us-2008b519df49af90dcfa7db4b5fe13c8ec24ced0348f0a6bd039711ad8bbffc7.svg"
+                    alt="">
+                <img src="https://d1luwo5u9zpc4i.cloudfront.net/assets/g2/g2_badge_usability_2022-9131129e6af4167315ef22db0d53e5335fe1d6333d95f91c1deb0ff454165883.svg"
+                    alt="">
+                <h3>“The best way to measure exactly where your time goes.”</h3>
+                <p><span>Brian,</span> Accountant</p>
+                <h3>“Timely takes a load off my brain.”</h3>
+                <p><span>Erik,</span> Digital Designer</p>
+                <h3>“Easy to use and I love the project level summaries.”</h3>
+                <p><span>Jonathan,</span> Software Engineer</p>
+        </div>
+        <div id="box2">
+            <h1>Sign up to Timely</h1>
+            <p>Already have an account? <a class="colg" href="./login.html">Log in</a></p>
+            <div class="gabtn"> <img
+                    src="https://d1luwo5u9zpc4i.cloudfront.net/assets/google_signin-f3c9ed21a2b2cb641cd72c0c1ab811e3ad589cb0abfe0f4f37dce575492d29de.svg"
+                    alt=""><span class="bot"> Sign in with Google</span>
+            </div>
+            <div class="gabtn gabtn1"> <img
+                    src="https://d1luwo5u9zpc4i.cloudfront.net/assets/left-black-logo-large-a3b14837a5f04bd3760b77c1e293fdb489555d095a6420427453e84643cd0b67.svg"
+                    alt=""> <span class="bot">Sign in with Apple</span>
+            </div>
+            <p class="tops">... or enter details:</p>
+            <div id="inputbox">
+                <input type="email" name="" id="signup_userMail" placeholder="Work Email">
+                <input type="text" name="" id="signup_userName" placeholder="Full Name">
+                <input type="password" name="" id="signup_userPassword" placeholder="Password">
+                <p>By signing up you agree to the <span class="colg">Terms of Service.</span></p>
+                <button id="signupButton" onclick="signupFunction()">Start free 14-day trial</button>
+            </div>
+        </div>
+    </div>
+    <p id="end">Copyright 2022 Memory AS</p>
+    <img id="care" src="https://reepay.com/wp-content/uploads/2019/08/chat-icon-image.svg" alt="">
+
+
+
+</body>
+
+</html>
+<script src="./scripts/signup.js"></script>
+<script type="module" >
+      import navbar from './components/signup&loginNavbar.js'
+
+    let navbar_container = document.querySelector('#navbar_container')
+    navbar_container.innerHTML = navbar()
+
+</script>
