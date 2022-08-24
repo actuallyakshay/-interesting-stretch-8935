@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Circular Std', sans-serif;
-
     list-style: none;
     text-decoration: none;
 }
@@ -121,6 +120,7 @@
 .flex ul li #about {
     width: 95%;
     vertical-align: middle;
+    border-radius: 0px;
 }
 
 .flex ul li #about:hover {
@@ -275,6 +275,7 @@
 
 body .startLogo {
     width: 130px;
+    border-radius: 0px;
 }
 
 #mainBody {
@@ -453,8 +454,7 @@ img {
 #invester {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3%;
-    row-gap: 20%;
+    gap: 40px;
     margin-top: 20px;
 }
 
@@ -481,7 +481,7 @@ img {
 }
 
 #box7 {
-    padding: 50px 80px;
+    padding: 0px 80px;
 }
 
 #box7 h1 {
@@ -495,28 +495,163 @@ img {
 }
 
 .news {
-    border: 1px solid red;
     width: 100%;
-    height: 400px;
+    height: 450px;
     margin-top: 20px;
     display: flex;
     gap: 30px;
+    margin-bottom: 100px;
 }
-
+.news3 {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.news>div{
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.news3>div{
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
 .news>div:nth-child(1) {
-    border: 1px solid black;
     width: 25%;
-    height: 90%;
+    height: auto;
+    
 }
 
 .news>div:nth-child(2) {
-    border: 1px solid black;
     width: 25%;
     height: 80%;
 }
 
 .news>div:nth-child(3) {
-    border: 1px solid black;
     width: 50%;
+    height: 100%;
 
+}
+.news3>div:nth-child(1) {
+    width: 25%;
+    height: auto;
+    
+}
+
+.news3>div:nth-child(2) {
+    width: 25%;
+    height: 80%;
+}
+
+.news3>div:nth-child(3) {
+    width: 50%;
+    height: 100%;
+
+}
+.news div #bigOne{
+    width: 15%;
+    border-radius: 0px;
+}
+.news2 div #bigOne{
+    width: 30%;
+    border-radius: 0px;
+}
+
+.logo{
+    width: 40%;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+ #pic{
+    width: 100%;
+}
+.bold{
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.news .nor{
+    text-align: left;
+    color: grey;
+    font-size: 14px;
+}
+.news3 .nor{
+    text-align: left;
+    color: grey;
+    font-size: 14px;
+}
+.news2 .nor{
+    text-align: left;
+    color: grey;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.news2 {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.news3 {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.news2>div{
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.news2>div:nth-child(1) {
+    width: 50%;
+    height: 80%;
+    
+}
+.news2>div:nth-child(2) {
+    width: 25%;
+    height: 100%;
+}
+
+.news2>div:nth-child(3) {
+    width: 25%;
+    height: 100%;
+   
+
+}
+.news3>div:nth-child(3) {
+    width: 50%;
+    height: auto;
+   
+
+}
+.logo2{
+    width: 80%;
+    margin: 20px 0px;
+}
+img#lastbigOne{
+    width: 30%;
+    margin: 10px 0px;
+}
+#hight{
+    height: 80%;
+}
+#last{
+    margin: 20px 0px;
 }
