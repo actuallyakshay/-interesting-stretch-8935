@@ -17,21 +17,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border: 2px solid white; */
     height: 80px;
     padding: 0px 5%;
     align-items: center;
 }
 
 #navbar {
-
-
     background-size: cover, auto;
-    /* background-repeat: no-repeat, repeat; */
     height: 100px;
-    /* background-attachment: fixed; */
     border-bottom-left-radius: 160px;
-    /* color: white; */
+}
+
+.fa-brands {
+    margin-right: 8px;
+}
+
+.fa-solid {
+    margin-right: 8px;
 }
 
 .logo img {
@@ -500,17 +502,20 @@ img {
     display: flex;
     gap: 30px;
 }
-.news>div:nth-child(1){
+
+.news>div:nth-child(1) {
     border: 1px solid black;
     width: 25%;
     height: 90%;
 }
-.news>div:nth-child(2){
+
+.news>div:nth-child(2) {
     border: 1px solid black;
     width: 25%;
     height: 80%;
 }
-.news>div:nth-child(3){
+
+.news>div:nth-child(3) {
     border: 1px solid black;
     width: 50%;
 

@@ -412,41 +412,45 @@
     text-align: center;
     margin-top: 40px;
 }
-#part-10>div:first-child>img{
+
+#part-10>div:first-child>img {
     width: 60%;
     margin-left: 150px;
     margin-top: 40px;
 }
-#part-10>div:nth-child(2){
+
+#part-10>div:nth-child(2) {
     margin-left: -200px;
     margin-top: -40px;
 }
 
-.part-10-subclass h1{
+.part-10-subclass h1 {
     font-size: 50px;
 }
-.part-10-subclass p, .part-10-subclass-1 p{
-    color: rgba(255,255,255,.85);
+
+.part-10-subclass p,
+.part-10-subclass-1 p {
+    color: rgba(255, 255, 255, .85);
     font-size: 14px;
     line-height: 1.7;
     font-weight: 400;
 }
 
-.part-10-subclass-1{
+.part-10-subclass-1 {
     display: flex;
     gap: 20px;
     padding-bottom: 17px;
 }
-.part-10-subclass-1 div{
+
+.part-10-subclass-1 div {
     font-size: 12px;
     font-weight: 400;
 }
 
-.part-10-subclass-1-anchor{
+.part-10-subclass-1-anchor {
     text-decoration: underline;
     color: white;
 }
 
 
 /* footer  */
-
