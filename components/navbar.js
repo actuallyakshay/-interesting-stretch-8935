@@ -1,4 +1,3 @@
-
 function navbar(){
     return `<div class="flex">
     <div class="logo"><img
