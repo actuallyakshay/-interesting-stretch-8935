@@ -6,7 +6,7 @@ function navbar(){
     <ul>
         <li><a href="/">Features ⌵</a>
             <ul >
-                <li><a href=""> <i class="fa-solid fa-stopwatch"></i>Track Time</a></li>
+                <li><a href="./trackTime.html"> <i class="fa-solid fa-stopwatch"></i>Track Time</a></li>
                 <li><a href=""><i class="fa-solid fa-hourglass-half"></i>Track Projects</a></li>
                 <li><a href=""> <i class="fa-solid fa-people-group"></i>Track Teams</a></li>
                 <li><a href=""> <i class="fa-solid fa-chart-column"></i>Track Plans</a></li>
