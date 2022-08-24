@@ -42,9 +42,9 @@ function navbar(){
             </ul>
         </li>
         <li><a href="">Talk to sales</a></li>
-        <li><a href="/"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a></li>
-        <li><a href="" id="free_trial">Start 14-day free trial</a></li>
-        <li><a href=""> <img id="about"
+        <li><a href="./login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a></li>
+        <li><a href="./signup.html" id="free_trial">Start 14-day free trial</a></li>
+        <li><a href="./memory.html"> <img id="about"
                     src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a399514908af72d_made-by-white.svg"
                     alt=""></a> </li>
 
