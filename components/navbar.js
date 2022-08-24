@@ -1,5 +1,5 @@
 function navbar(){
-    return ` <div class="flex">
+    return `<div class="flex">
     <div class="logo"><img
             src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39955aef8af720_timely-new-logo.svg"
             alt=""></div>
