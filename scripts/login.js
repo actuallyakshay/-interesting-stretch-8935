@@ -32,7 +32,7 @@ function finalResult(){
 
     if(obj.mail == loginmail && loginPassword == obj.password){
         alert('Login Successful')
-        window.location.href='#'
+        window.location.href='index.html'
     }else if(obj.mail == loginmail && loginPassword != obj.password){
         alert('Wrong Password')
     }else if(obj.mail !== loginmail && loginPassword == obj.password){

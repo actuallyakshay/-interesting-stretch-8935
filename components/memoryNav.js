@@ -1,8 +1,14 @@
-function navbar(){
+function Memorynavbar() {
     return `<div class="flex">
-    <div class="logo"><img
-            src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39955aef8af720_timely-new-logo.svg"
-            alt=""></div>
+    <div class="logo" >
+    <a href="./Index.html"><img
+            src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39952e0d8af72b_Variant3.svg"
+            alt=""></a>
+            <div class="dis" >
+            <div class="col colb " ></div>
+            <div  class="col coly" ></div>
+        </div>
+            </div>
     <ul>
         <li><a href="/">Features ⌵</a>
             <ul >
@@ -45,11 +51,11 @@ function navbar(){
         <li><a href="./login.html">Login</a></li>
         <li><a href="./signup.html" id="free_trial">Start 14-day free trial</a></li>
         <li><a href="./memory.html"> <img id="about"
-                    src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a399514908af72d_made-by-white.svg"
+                    src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a399529fb8af72e_made-by-dark2.svg"
                     alt=""></a> </li>
 
     </ul>
 </div>`
 };
 
-export default navbar;
+export default Memorynavbar;

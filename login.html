@@ -8,7 +8,7 @@
     <link rel="icon" type="image"
         href="https://d1luwo5u9zpc4i.cloudfront.net/assets/favicon-976401d7b4c17794f48a51dc05b1a17c4bd031796465b1108b8cc1d3dc9a1b4a.ico">
     <title>Log in to Timely - Memory</title>
-    <link rel="stylesheet" href="./loginSignup.css">
+    <link rel="stylesheet" href="./style/loginSignup.css">
 </head>
 <style>
      #options #box2 input {
@@ -50,7 +50,7 @@
                 <button id="loginButton" onclick="loginFunction()" > <strong>Next</strong> </button>
             </div>
             <p class="colg"><a href="./forgetpassword.html">I forgot my password</a></p>
-            <div class="gabtn"> <img
+            <div class="gabtn"><a href=""></a> <img
                     src="https://d1luwo5u9zpc4i.cloudfront.net/assets/google_signin-f3c9ed21a2b2cb641cd72c0c1ab811e3ad589cb0abfe0f4f37dce575492d29de.svg"
                     alt=""><span class="bot"> Sign in with Google</span></div>
             <div class="gabtn gabtn1" > <img
@@ -66,7 +66,7 @@
 </html>
 <script src="./scripts/login.js"></script>
 <script type="module" >
-     import navbar from './scripts/loginSingupnavbar.js'
+      import navbar from './components/signup&loginNavbar.js'
 
     let navbar_container = document.querySelector('#navbar_container')
     navbar_container.innerHTML = navbar()
