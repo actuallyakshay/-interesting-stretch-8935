@@ -8,6 +8,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="./style/navbar.css">
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <script src="https://kit.fontawesome.com/cdebd35493.js" crossorigin="anonymous"></script>
 
 </head>
@@ -19,6 +20,11 @@
         <!-- navbar  -->
 
     </div>
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#7738d6" fill-opacity="1"
+            d="M0,96L48,96C96,96,192,96,288,117.3C384,139,480,181,576,176C672,171,768,117,864,112C960,107,1056,149,1152,165.3C1248,181,1344,171,1392,165.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
 
     <!-- 2nd part box -->
 
@@ -29,7 +35,7 @@
             <p>Timely automates company time tracking, so you and your team can focus on the work that matters.</p>
             <div class="input">
                 <input type="text" placeholder="Enter your work email" class="email">
-                <button class="btn">Start my free trial</button>
+                <a href="./signup.html"><button class="btn">Start my free trial</button></a>
                 <div>
                     <span class="small"><img
                             src="https://assets-global.website-files.com/5db165cbf782f992df567ae5/60f835b74a8c57e4188a2912_Icon.svg"
@@ -156,6 +162,7 @@
     </div>
 
 
+
     <!-- part - 7  -->
 
     <div id="part-7">
@@ -189,43 +196,20 @@
 
     <!-- part 10  -->
 
-    <div id="part-10">
-        <div>
-            <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39955f428af2ba_timely---a.svg"
-                alt="">
-        </div>
-        <div class="part-10-subclass">
-            <h1>Try <span class="green"> Timely</span> for free!</h1>
-            <p>Discover the power of Timely's automated time tracking with a 14-day free trial</p>
-            <div class="input">
-                <input type="text" placeholder="Enter your work email" class="email">
-                <button class="btn">Start my free trial</button>
-                <div class="part-10-subclass-1">
-                    <div>
-                        <span class="small"><img
-                                src="https://assets-global.website-files.com/5db165cbf782f992df567ae5/60f835b74a8c57e4188a2912_Icon.svg"
-                                alt=""></span>Trusted by 5000+ businesses globally
-                    </div>
-                    <div>
-                        <span class="small"><img
-                                src="https://assets-global.website-files.com/5db165cbf782f992df567ae5/60f835b74a8c57c62c8a28e4_thumb-down.svg"
-                                alt=""></span>Trusted by 5000+ businesses globally
-                    </div>
-                    <div>
-                        <span class="small"><img
-                                src="https://assets-global.website-files.com/5db165cbf782f992df567ae5/60f835b74a8c57f43e8a2916_light-bulb.svg"
-                                alt=""></span>Trusted by 5000+ businesses globally
-                    </div>
-                </div>
-                <p>​​20 people or more? <a href="" class="part-10-subclass-1-anchor"> Get a personalized introduction to
-                        Timely</a></p>
+    <div id="PART10">
 
-            </div>
-        </div>
     </div>
 
 
+
+
     <!-- part - 11 footer  -->
+    <div id="FOOTER">
+        <!-- imported from footer.js  -->
+
+    </div>
+
+
 
 
 </body>
@@ -236,6 +220,16 @@
 
     import navbar from "./components/navbar.js"
     document.querySelector("#navbar").innerHTML = navbar();
+
+    import footer from "./components/footer.js"
+
+    document.querySelector("#FOOTER").innerHTML = footer()
+
+    import freeTrial from "./components/freeTrial.js"
+
+    document.querySelector("#PART10").innerHTML = freeTrial()
+
+
 
 </script>
 

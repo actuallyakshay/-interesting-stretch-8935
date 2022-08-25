@@ -180,8 +180,8 @@ let part_9_arr = [
 
 part_9(part_9_arr)
 
-function part_9(part_9_arr){
-    part_9_arr.forEach((elem,index)=>{
+function part_9(part_9_arr) {
+    part_9_arr.forEach((elem, index) => {
 
         let div = create("div")
 
@@ -194,3 +194,5 @@ function part_9(part_9_arr){
         document.querySelector("#part-9").append(div);
     })
 }
+
+
