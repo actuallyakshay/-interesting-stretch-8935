@@ -1,13 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/circular-std');
 
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Circular Std', sans-serif;
-
-} 
-
 #container {
     margin-top:100px;
 
@@ -35,7 +28,7 @@
 
 width:62%;
 margin:auto ;
-height:auto;
+
 border-radius:20px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
@@ -47,6 +40,8 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-top-right-radius: 20px;
   
 }
+
+
 
 #micro{
   height:auto;
@@ -73,7 +68,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 color: #001141;
 font-size:17px;
-font-weight:bold ;
+line-height:22px;
 font-family:'Circular Std',sans-serif;
 }
 #middle{
@@ -109,9 +104,9 @@ margin-left:20px;
 color: #001141;
 }
 #middle>div>p{
-line-height:20px;
+line-height:23px;
 
-font-size:12px;
+font-size:14px;
 margin:0px 30px 0px 20px;
 color: #001141;
 }
@@ -130,4 +125,3 @@ border-radius:10px;
 
 font-size:15px;
 }
-
