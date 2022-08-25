@@ -26,8 +26,8 @@
 }
 #top>p{
     color: #001141;
-    font-size:18px;
-    font-weight:bold;
+    font-size:25px;
+   
     font-family:'Circular Std',sans-serif;
 }
 
@@ -35,7 +35,7 @@
 
 width:62%;
 margin:auto ;
-height:750px;
+height:auto;
 border-radius:20px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
@@ -49,7 +49,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #micro{
-  height:200px;
+  height:auto;
   width:100%;
   margin-left:40px;
   
@@ -110,7 +110,7 @@ color: #001141;
 }
 #middle>div>p{
 line-height:20px;
-font-weight:bold;
+
 font-size:12px;
 margin:0px 30px 0px 20px;
 color: #001141;
