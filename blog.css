@@ -1,0 +1,133 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Circular Std', sans-serif;
+
+} */
+
+#container {
+    margin-top:100px;
+
+  
+}      
+
+#top{
+    text-align:center;
+}
+
+#top>h1{
+    color: #001141;
+    font-size:50px;
+    line-height:10px;
+    font-family:'Circular Std',sans-serif;
+}
+#top>p{
+    color: #001141;
+    font-size:18px;
+    font-weight:bold;
+    font-family:'Circular Std',sans-serif;
+}
+
+#new{
+
+width:62%;
+margin:auto ;
+height:750px;
+border-radius:20px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#new>img{
+  width:100%;
+  /* height:550px; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+
+#micro{
+  height:200px;
+  width:100%;
+  margin-left:40px;
+  
+  
+}
+#micro>h1{
+
+ color: #001141;
+ line-height: 10px;
+ font-size:35px;
+ font-family:'Circular Std',sans-serif;
+}
+#micro>img{
+   height:50px;
+   
+  
+
+}
+
+#micro>p{
+
+color: #001141;
+font-size:17px;
+font-weight:bold ;
+font-family:'Circular Std',sans-serif;
+}
+#middle{
+display:grid;
+width:80%;
+grid-template-columns: repeat(3,31%);
+grid-template-rows: repeat(4,auto);
+gap:30px;
+margin:auto;
+}
+#color{
+    margin-top:60px;
+    width:100%;
+    height:auto;
+    background-color:#f4f1f5;
+}
+#middle>div{
+width:85%;
+
+
+font-family:'Circular Std',sans-serif;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius:20px;
+}
+#middle>div>img{
+width:100%;
+height:250px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+#middle>div>h2{
+margin-left:20px;    
+color: #001141;
+}
+#middle>div>p{
+line-height:20px;
+font-weight:bold;
+font-size:12px;
+margin:0px 30px 0px 20px;
+color: #001141;
+}
+#middle>div>p+p{
+margin-top:20px;
+
+}
+button{
+text-align:center;
+background-color: #001141 ;
+font-family:'Circular Std',sans-serif;
+color:white;
+margin:50px 500px 0px 670px;
+padding:15px 35px 15px 23px;
+border-radius:10px;
+
+font-size:15px;
+}
+

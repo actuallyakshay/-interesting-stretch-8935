@@ -1,4 +1,4 @@
-function Memorynavbar() {
+function allnav() {
     return `<div class="flex">
     <div class="logo" >
     <a href="./Index.html"><img
@@ -53,9 +53,8 @@ function Memorynavbar() {
         <li><a href="./memory.html"> <img id="about"
                     src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a399529fb8af72e_made-by-dark2.svg"
                     alt=""></a> </li>
-
     </ul>
 </div>`
 };
 
-export default Memorynavbar;
+export default allnav;
