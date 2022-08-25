@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Circular Std', sans-serif;
-
     list-style: none;
     text-decoration: none;
 }
@@ -14,7 +13,6 @@
     position: absolute;
     top: 100px;
     width: 90%;
-    /* border: 2px solid black; */
     height: 550px;
     margin: auto;
     left: 70px;
@@ -80,6 +78,7 @@
     cursor: pointer;
     background-color: #7738d6;
     transition: .3s;
+    color: white;
 }
 
 .input>div {
@@ -452,5 +451,3 @@
     color: white;
 }
 
-
-/* footer  */

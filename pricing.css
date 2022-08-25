@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 70%;
+    width: 34%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #0dbb8a;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #0dbb8a;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(35px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#head {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#head h1 {
+    font-size: 3.4rem;
+}
+
+#head p {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+#priBtn {
+    /* border: 1px solid red; */
+    width: 30%;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    margin: auto;
+}
+
+#saveUpto {
+    color: #0dbb8a;
+    font-weight: bold;
+}
+
+#line {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 20px;
+    padding: 20px 80px 10px 80px;
+    color: #dcdada;
+    margin-top: 20px;
+}
+
+#line div:nth-child(1) {
+    width: 23%;
+    background-color: #e7e7e7;
+    height: 2.5px;
+}
+
+#line div:nth-child(3) {
+    width: 23%;
+    background-color: #e7e7e7;
+    height: 2.5px;
+}
+
+#line div:nth-child(4) {
+    width: 10%;
+    background-color: #e7e7e7;
+    height: 2.5px;
+}
+
+#line div:nth-child(6) {
+    width: 10%;
+    background-color: #e7e7e7;
+    height: 2.5px;
+}
+
+#priceGrid {
+    width: 100%;
+    height: auto;
+}
+
+
+#priceGrid>div:nth-child(1) {
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    margin: 30px;
+}
+
+.priceLogo {
+    height: 40px;
+}
+
+.logoPrice {
+    font-size: 60px;
+}
+
+article div figure .tic {
+    height: 8px;
+    border: 2px solid #9a3ffc;
+    padding: 2px;
+    border-radius: 3px;
+}
+article{
+    width: 90%;
+    margin: auto;
+}
+article>div{
+    display: flex;
+    flex-flow: row wrap;
+    /* padding: 0px 80px; */
+}
+article div figure{
+   flex: 1 0 100px;
+   width: 100px;
+   height: 500px;
+   margin: 12px ;
+   transition: all 500ms ease-in-out;
+   background-color: #f4f1f5;
+   border-radius: 20px;
+   padding: 25px;
+
+}article div figure:hover{
+    box-shadow: #8b3ffc5c 0px 4px 12px;
+    width: 150px;
+   height: 510px;
+}
+article div figure .logoPriceText{
+    font-size: 8px;
+
+}
+article div figure p{
+    color: gray;
+}
+article div figure p:nth-child(2){
+    margin-bottom: 20px;
+}
+article div figure h3{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+article div figure button{
+    width: 100%;
+    height: 45px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: #001141;
+    color: white;
+}
+article div figure button:hover{
+    background-color: #9a3ffc;
+    transition: all 300ms ease-in-out;
+}
+article div figure #bar{
+    height: 1px;
+    width: 90%;
+    background-color: #cabbda;
+    margin: 10% 0px 10px 0px;
+}
+
+article div figure .dis{
+    font-size: 15px;
+}
+article div figure #arrowPic{
+    height: 10px;
+    margin-top: 30px;
+    width: 40px;
+}
+article div figure .lernMore{
+    color: #9a3ffc;
+    font-weight: bold;
+   
+
+}
+article div figure .lernMore:hover{
+    color: #0dbb8a;
+    transition: all 300ms ease-in-out;
+  
+}
+article div #lastDiv{
+   color: white;
+   background-color: #0dbb8a;
+}
+article div figure :last-child{
+    color: white;
+}
+article div figure #lastBtn{
+    background-color: white;
+    color: black;
+    margin-bottom: 50%;
+}
+article div figure #lastBtn:hover{
+    background-color: #001141;
+    color: white;
+}
+article div figure #lastPara{
+    color: white;
+}
+article div figure h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#box1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#box1>p{
+    color: gray;
+    margin: 20px 0px 40px 0px;
+}
+#bar1{
+    height: 1px;
+    background-color: #dcd5e4f0;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.header2{
+    text-align: center;
+}
+.header2 p{
+    color: gray;
+}
+#box2{
+    height: 250px;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-top: 40px;
+}
+#box2>div:last-child{
+    padding: 30px;
+    width: 45%;
+    color: #cabbda;
+}
+#box2>div h2{
+    background-image: url('https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a399570838af438_quote.svg');
+    background-repeat: no-repeat;
+}
+#box2 img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#box2>div p:last-child{
+    color: #9a3ffc;
+}
+#box3{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#box3 img{
+    width: 80%;
+}
+#faq{
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+}
+#faq summary{
+padding: 15px 0px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+border-radius: 10px;
+margin: 15px;
+
+}
+#faq summary:hover{
+    box-shadow: #8b3ffc 0px 2px 16px 0px;
+    transition: all 300ms ease-in-out;
+   
+}
+#faq summary:active{
+    background-color: #7a00fd;
+    color: white;
+    
+}
