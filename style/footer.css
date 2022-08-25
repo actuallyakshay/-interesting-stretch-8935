@@ -1,0 +1,179 @@
+
+/* footer  */
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+#FOOTER {
+
+
+    font-family: 'Circular Std', sans-serif;
+
+}
+
+
+#footer-subpart-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    color: rgba(0, 17, 65, .8);
+
+}
+
+#footer-subpart-1>img:nth-child(2) {
+    width: 4%;
+    margin-top: 10px;
+}
+
+#footer-subpart-1>img:nth-child(3) {
+    margin-top: -20px;
+    opacity: .3;
+}
+
+
+/* main footer */
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 0px 8%;
+    background-image: linear-gradient(180deg, #fff, #e2dfec 81%, #e1dfec);
+    /* border-bottom: 2px solid grey; */
+    padding-bottom: 30px;
+}
+
+
+#footer>div>img:first-child {
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.small_images {
+    border-top: 2px solid rgb(215, 212, 212);
+    display: flex;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.small_images>img {
+    width: 17%;
+}
+
+#footer>div>p:nth-child(3) {
+
+    border-radius: 8px;
+    background-color: #001141;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    padding: 12px 22px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+#footer>div>p:nth-child(3):hover {
+    transition: 350ms;
+    background-color: #8a3ffc;
+    color: white;
+    cursor: pointer;
+}
+
+#footer>div>p:nth-child(4) {
+    color: #001141;
+    font-size: 1.2em;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -.03em;
+    margin-top: 40px;
+}
+
+.store{
+    display: flex;
+
+    margin-top: 20px;
+}
+
+.store>a>img {
+    width: 80%;
+}
+
+#footer-sub-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+    margin-top: 90px;
+    margin-left: 100px;
+
+}
+
+
+#footer-sub-2 p a{
+    color: rgba(56, 49, 68, .6);
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 100;
+    font-variant-caps: titling-caps;
+}
+#footer-sub-2 p a:hover{
+    color: #8a3ffc;
+    cursor: pointer;
+    transition: 350ms;
+}
+
+#footer-sub-2 .f1 p:first-child,
+#footer-sub-2 .f2 p:first-child ,
+#footer-sub-2 .f3 p:first-child,
+#footer-sub-2 .f4 p:first-child,
+#footer-sub-2 .f5 p:first-child,
+#footer-sub-2 .f6 p:first-child {
+    height: 1em;
+    color: #001141;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+.hiring{
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 0.8em;
+    background-color: #fe435e;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+/* last part  */
+
+#last-part{
+    background-image: linear-gradient(180deg, #fff, #e2dfec 0%, #e1dfec);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+
+}
+#last-part ul{
+    display: flex;
+    list-style: circle;
+    gap: 30px;
+
+}
+#last-part ul li a{
+    text-decoration: underline;
+    color: #383144;
+    font-size: 14px;
+}
+#last-part ul li a:hover{
+    color: #8a3ffc;
+    transition: 350ms;
+}
+#last-part p{
+    color: rgba(56,49,68,.78);
+    font-size: 15px;
+    font-weight: 400;
+}

@@ -102,7 +102,7 @@
     border-top: none;
 }
 
-.flex ul li #free_trial {
+.flex ul li #free_trial{
     padding: 5px 20px;
     border-radius: 10px;
     background-color: #001141;
@@ -111,7 +111,7 @@
     font-size: 12px;
 }
 
-.flex ul li #free_trial:hover {
+.flex ul li #free_trial:hover{
     transition: 350ms;
     background-color: #8a3ffc;
     color: white;
