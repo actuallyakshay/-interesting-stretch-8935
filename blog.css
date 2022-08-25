@@ -75,6 +75,11 @@ grid-template-rows: repeat(4,auto);
 gap:10px;
 margin:auto;
 }
+#color{
+    width:100%;
+    height:auto;
+    background-color:#f4f1f5;
+}
 #middle>div{
 width:85%;
 
