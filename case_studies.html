@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="case_studies.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/case_studies.css">
+  <link rel="stylesheet" href="./style/footer.css">
+  <link rel="stylesheet" href="./style/allNav.css">
 </head>
+
 <body>
-    <div id="container">
-           <div id="head">
-             <h1>Case studies</h1>
-             <p>Stories from our global user base on how Timely supports their works</p>
-           </div>
-    </div>
-      <div id="middle">
+  <div id="navbar" style="background-color:#f4f1f5;">
+    <!-- imported  -->
+  </div>
+  <div id="containerr"> 
+      <h1>Case studies</h1>
+      <p>Stories from our global user base on how Timely supports their works</p>
+  </div>
+  <div id="middle">
 
+  </div>
+  <!-- footer
+          -->
 
-          
+  <div id="FOOTER">
+    <!-- imported  -->
+  </div>
 
-         
-        
-      </div>
 </body>
+
 </html>
+
+<script type="module">
+
+  import allnav from "./components/allNav.js"
+
+  document.querySelector("#navbar").innerHTML = allnav();
+  import footer from "./components/footer.js"
+
+  document.querySelector("#FOOTER").innerHTML = footer()
+
+</script>
 <script src="case_studies.js"></script>
