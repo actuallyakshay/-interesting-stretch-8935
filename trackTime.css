@@ -8,11 +8,9 @@
 #heder{
     height: 400px;
     background-color:#f5f2f9;
-    border: 1px solid red;
     display: flex;
 }
 #heder>div{
-    border: 1px solid red;
     width: 50%;
 }
 #heder>div:first-child{
@@ -27,6 +25,7 @@
 }
 #heder>div:last-child{
     padding: 10px 10%;
+    padding-top: 7%;
 }
 #heder #inputBox{
     height: 50px;
@@ -42,6 +41,7 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: white;
     color: gray;
+
 }
 #heder #inputBox button{
     padding: 10px 15px;
@@ -49,11 +49,129 @@
     background-color: black;
     color: white;
 }
-.c1{
-    background-color: #0dbb8a;
+#heder #inputBox button:hover{
+    background-color: #8a3ffc;
+    border-color: #8a3ffc;
+    transition: all 600ms;
 }
-.c2{
-    background-color: #151515;
+#main{
+    display: flex;
+    gap: 12%;
+}
+#main .child .c1{
+    background-color: white;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   
+}
+#main .child .c1 img{
+    height: 70%;
+}
+#main .child .c2{
+    background-color: #1441d5;
     height: 50px;
-    width: 6px;
+    width: 19px;
+    bottom: 10px;
+    margin-left: 23px;
+    position: relative;
+    top: -8;
+    border-radius: 10px;
+    
+    
+}
+#main .child #gre{
+    background-color: #45d689;
+    height: 50px;
+}
+#main .child #red{
+    background-color: #e86120;
+    height: 60px;
+}
+#main .child #yel{
+    background-color: #f9ba21;
+    height: 40px;
+}
+#main .child #blu{
+    background-color: #4999f7;
+    height: 40px;
+}
+#main .child p{
+    color: gray;
+}
+#grid6{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 85%;
+    margin: auto;
+    margin-top: -160px;
+}
+#grid6 div{
+    height: auto;
+}
+#grid6 .front{
+    width: 80%;
+    height: 90%;
+   margin-top: -43%;
+}
+#grid6 .back{
+    width: 85%;
+    height: 95%;
+    margin-bottom: -60px;
+
+}
+#grid6 h1{
+    margin: 30px 0px 20px 0px;
+}
+#grid6 p{
+    color: gray;
+    line-height: 27px;
+}
+#box1{
+    height: auto;
+    color: white;
+    background-color: #001141;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 30px;
+}
+#box1 img{
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+#box1 p{
+    margin: 10px 0px;
+}
+#box1 button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#box1 button:hover{
+    background-color: black;
+    color: white;
+}
+#midhead{
+    margin: 30px 0px;
+    text-align: center;
+}
+#flex3{
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+#flex3 div{
+    text-align: center;
+}
+#flex3 p{
+    color: gray;
 }
