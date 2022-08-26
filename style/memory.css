@@ -520,10 +520,7 @@ img {
     gap: 30px;
     margin-bottom: 100px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
 .news3 {
     /* border: 1px solid red; */
     width: 100%;
@@ -533,23 +530,15 @@ img {
     gap: 30px;
     margin-bottom: 100px;
 }
-<<<<<<< HEAD
-
-.news>div {
-=======
 .news>div{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
     padding: 30px;
     text-align: center;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-<<<<<<< HEAD
 
-.news3>div {
-=======
 .news3>div{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
+
     padding: 30px;
     text-align: center;
     border-radius: 10px;
@@ -558,11 +547,7 @@ img {
 .news>div:nth-child(1) {
     width: 25%;
     height: auto;
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
 }
 
 .news>div:nth-child(2) {
@@ -580,13 +565,10 @@ img {
 .news3>div:nth-child(1) {
     width: 25%;
     height: auto;
-
-=======
+}
 .news3>div:nth-child(1) {
     width: 25%;
     height: auto;
-    
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
 }
 
 .news3>div:nth-child(2) {
@@ -599,88 +581,51 @@ img {
     height: 100%;
 
 }
-<<<<<<< HEAD
 
-.news div #bigOne {
-    width: 15%;
-    border-radius: 0px;
-}
 
-.news2 div #bigOne {
-=======
 .news div #bigOne{
     width: 15%;
     border-radius: 0px;
 }
 .news2 div #bigOne{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
     width: 30%;
     border-radius: 0px;
 }
-
-<<<<<<< HEAD
-.logol {
-=======
-.logo{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
+.news .logo{
     width: 40%;
     border-radius: 0px;
     margin-bottom: 20px;
 }
-<<<<<<< HEAD
 
 #pic {
     width: 100%;
 }
-
-.bold {
-=======
- #pic{
-    width: 100%;
-}
 .bold{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
     font-weight: bold;
     font-style: italic;
     text-align: left;
     margin: 10px 0px;
     font-size: 20px;
 }
-<<<<<<< HEAD
-
-.news .nor {
-=======
 .news .nor{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
     text-align: left;
     color: grey;
     font-size: 14px;
 }
-<<<<<<< HEAD
 
-.news3 .nor {
-=======
 .news3 .nor{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
     text-align: left;
     color: grey;
     font-size: 14px;
 }
-<<<<<<< HEAD
 
-.news2 .nor {
-=======
 .news2 .nor{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
+
     text-align: left;
     color: grey;
     font-size: 13px;
     margin-top: 20px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
 .news2 {
     /* border: 1px solid red; */
     width: 100%;
@@ -690,10 +635,6 @@ img {
     gap: 30px;
     margin-bottom: 100px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
 .news3 {
     /* border: 1px solid red; */
     width: 100%;
@@ -703,32 +644,23 @@ img {
     gap: 30px;
     margin-bottom: 100px;
 }
-<<<<<<< HEAD
 
-.news2>div {
-=======
 .news2>div{
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
     padding: 30px;
     text-align: center;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-<<<<<<< HEAD
-
 .news2>div:nth-child(1) {
     width: 50%;
     height: 80%;
 
 }
-
-=======
 .news2>div:nth-child(1) {
     width: 50%;
     height: 80%;
     
 }
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
 .news2>div:nth-child(2) {
     width: 25%;
     height: 100%;
@@ -737,7 +669,6 @@ img {
 .news2>div:nth-child(3) {
     width: 25%;
     height: 100%;
-<<<<<<< HEAD
 
 
 }
@@ -766,10 +697,8 @@ img#lastbigOne {
 #last {
     margin: 20px 0px;
 }
-=======
-   
 
-}
+
 .news3>div:nth-child(3) {
     width: 50%;
     height: auto;
@@ -790,4 +719,4 @@ img#lastbigOne{
 #last{
     margin: 20px 0px;
 }
->>>>>>> 9916b6fd1745a1329559ecccbb678af1e7e1462a
+
