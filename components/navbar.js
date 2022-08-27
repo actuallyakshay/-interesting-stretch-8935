@@ -1,17 +1,17 @@
 function navbar(){
     return `<div class="flex">
-    <div class="logo"><img
+    <div class="logo"><a href="./Index.html"><img
             src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39955aef8af720_timely-new-logo.svg"
-            alt=""></div>
+            alt=""></a></div>
     <ul>
         <li><a href="/">Features ⌵</a>
             <ul >
                 <li><a href="./trackTime.html"> <i class="fa-solid fa-stopwatch"></i>Track Time</a></li>
-                <li><a href=""><i class="fa-solid fa-hourglass-half"></i>Track Projects</a></li>
-                <li><a href=""> <i class="fa-solid fa-people-group"></i>Track Teams</a></li>
-                <li><a href=""> <i class="fa-solid fa-chart-column"></i>Track Plans</a></li>
+                <li><a href="./trackProject.html"><i class="fa-solid fa-hourglass-half"></i>Track Projects</a></li>
+                <li><a href="./trackTeams.html"> <i class="fa-solid fa-people-group"></i>Track Teams</a></li>
+                <li><a href="./trackPlans.html"> <i class="fa-solid fa-chart-column"></i>Track Plans</a></li>
                 <li><a href="./intergrations.html"><i class="fa-solid fa-handcuffs"></i>Integrations</a></li>
-                <li><a href=""><i class="fa-solid fa-road-barrier"></i>Our privacy promise</a></li>
+                <li><a href="./privacy.html"><i class="fa-solid fa-road-barrier"></i>Our privacy promise</a></li>
             </ul>
         </li>
         <li><a href="">Solutions ⌵</a>
