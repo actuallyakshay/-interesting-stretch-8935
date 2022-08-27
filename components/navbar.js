@@ -32,8 +32,8 @@ function navbar(){
         <li><a href="pricing.html">Pricing</a> </li>
         <li><a href="">Resources ⌵</a>
             <ul>
-                <li><a href=""><i class="fa-solid fa-blog"></i>Blog</a></li>
-                <li><a href=""><i class="fa-solid fa-book"></i>Case studies</a></li>
+                <li><a href="./blog.html"><i class="fa-solid fa-blog"></i>Blog</a></li>
+                <li><a href="./case_studies.html"><i class="fa-solid fa-book"></i>Case studies</a></li>
                 <li><a href=""><i class="fa-solid fa-podcast"></i>Podcast</a></li>
                 <li><a href=""><i class="fa-solid fa-book-open"></i>Books</a></li>
                 <li><a href=""><i class="fa-solid fa-globe"></i>Webinars</a></li>

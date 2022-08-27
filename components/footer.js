@@ -25,7 +25,7 @@ function footer() {
                                         <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/62b3651fdfae2ff62378f39f_TimeTracking_BestRelationship_Total.svg"
                                             alt="">
                                         </div>
-                                        <p>Start my free trial</p>
+                                        <p id="start">Start my free trial</p>     
                                         <p>Get Timely on every device</p>
                                         <div class=" store">
                                         <a href="https://apps.apple.com/us/app/timely-time-tracking-app-to/id619462420"><img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39951e1d8af644_App%20Store%20-%20eng.svg"
@@ -38,10 +38,10 @@ function footer() {
                                             <div class="f1">
                                                 <!-- data appended  -->
                                                 <p> Features</p>
-                                                <p><a href="./login.html">Track time</a> </p>
-                                                <p><a href="">Track projects</a> </p>
-                                                <p><a href=""> Track teams</a></p>
-                                                <p><a href=""> Track plans</a></p>
+                                                <p><a href="./trackTime.html">Track time</a> </p>
+                                                <p><a href="./trackProject.html">Track projects</a> </p>
+                                                <p><a href="./trackTeams.html"> Track teams</a></p>
+                                                <p><a href="./trackPlans.html"> Track plans</a></p>
                                                 <p><a href=""> Our privacy promise</a></p>
                                             </div>
                                             <div class="f2">
@@ -56,8 +56,8 @@ function footer() {
                                             <div class="f3">
                                                 <!-- data appended  -->
                                                 <p>Resources</p>
-                                                <p><a href="">Blog</a> </p>
-                                                <p><a href="">Case studies</a> </p>
+                                                <p><a href="./blog.html">Blog</a> </p>
+                                                <p><a href="./case_studies.html">Case studies</a> </p>
                                                 <p><a href="">Podcast</a> </p>
                                                 <p><a href="">Webinars</a> </p>
                                                 <p><a href="">Time tracking guide</a> </p>

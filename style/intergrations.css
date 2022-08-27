@@ -1,3 +1,21 @@
+
+body  {
+    animation: transitionIn .75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+
 #gridFifteen{
     height: 450px;
     width: 85%;

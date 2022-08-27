@@ -1,5 +1,21 @@
 @import url('http://fonts.cdnfonts.com/css/circular-std');
 
+body  {
+    animation: transitionIn .4s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
 * {
     margin: 0px;
     padding: 0px;
