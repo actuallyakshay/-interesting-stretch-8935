@@ -10,6 +10,9 @@
     <title>Pricing New - Timely</title>
     <link rel="stylesheet" href="./style/allNav.css">
     <link rel="stylesheet" href="./style/pricing.css">
+    <link rel="stylesheet" href="./style/">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <script src="https://kit.fontawesome.com/cdebd35493.js" crossorigin="anonymous"></script>
 </head>
 
@@ -203,6 +206,8 @@
         </div>
     </div>
 
+    <div id="freetrialTrackTime" > </div>
+
     <div class="header2">
         <h1>Frequently asked questions</h1>
         <p>Below you’ll find answers to the questions we get asked the most about our subscriptions</p>
@@ -284,6 +289,8 @@
             ·  What was your motivation for finding a time tracking tool?.
         </details>
     </div>
+
+    <div id="FooterTracktime" ></div>
 </body>
 
 </html>
@@ -292,6 +299,14 @@
     import allnav from "./components/allNav.js"
 
     document.querySelector("#navbar").innerHTML = allnav();
+
+    import freeTrial from "./components/freeTrial.js"
+
+    document.querySelector("#freetrialTrackTime").innerHTML = freeTrial()
+
+    import footer from "./components/footer.js"
+
+document.querySelector("#FooterTracktime").innerHTML = footer()
 
 </script>
 <script>
@@ -307,6 +322,7 @@
         document.querySelector('.saveUpto3').innerHTML = '&nbsp; Save 23%'
         document.querySelector('#logoPrice3').innerHTML = '20'
 
+        
 
     })
 

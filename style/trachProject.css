@@ -54,56 +54,33 @@
     border-color: #8a3ffc;
     transition: all 600ms;
 }
-#main{
-    display: flex;
-    gap: 12%;
-}
-#main .child .c1{
-    background-color: white;
-    height: 65px;
-    width: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    position: relative;
-    z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-   
-}
-#main .child .c1 img{
+#heder #sape{
+    border-radius: 20% 80% 10% 90% / 72% 21% 79% 28% ;
     height: 70%;
-}
-#main .child .c2{
-    background-color: #1441d5;
-    height: 50px;
-    width: 19px;
-    bottom: 10px;
-    margin-left: 23px;
-    position: relative;
-    top: -8;
-    border-radius: 10px;
-    
-    
-}
-#main .child #gre{
+    width: 110%;
     background-color: #45d689;
-    height: 50px;
+  padding-top: 80px;
+  padding-left: 20px;
+  color: white;
+  text-align: center;
 }
-#main .child #red{
-    background-color: #e86120;
-    height: 60px;
+#heder img{
+    border-radius: 39% 61% 40% 60% / 61% 50% 50% 39% ;
+    position: relative;
+    height: 150px;
+    left: 90%;
+    top: -80px;
 }
-#main .child #yel{
-    background-color: #f9ba21;
-    height: 40px;
+#heder a{
+    color: white;
 }
-#main .child #blu{
-    background-color: #4999f7;
-    height: 40px;
+#heder #sape p{
+    color: black;
 }
-#main .child p{
-    color: gray;
+#heder #sape p:hover{
+    color: white;
+    transition: all 900ms;
+    font-weight: bold;
 }
 #grid6{
     height: auto;
@@ -111,7 +88,7 @@
     grid-template-columns: repeat(2,1fr);
     width: 85%;
     margin: auto;
-    margin-top: -160px;
+    margin-top: -100px;
 }
 #grid6 div{
     height: auto;
@@ -133,6 +110,11 @@
 #grid6 p{
     color: gray;
     line-height: 27px;
+}
+#grid6  #manage{
+    margin-left: 30px;
+    margin-bottom: -53px;
+
 }
 #box1{
     height: auto;
@@ -180,5 +162,16 @@
     display: flex;
     padding: 0px 80px;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+#heder div .starts{
+    font-size: 12px;
+    color: black;
+}
+#heder #starts2{
+    color: rgb(107, 107, 107);
+    letter-spacing: 0px;
+    font-size: 43px;
+    font-weight: 1000;
 }

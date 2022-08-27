@@ -10,7 +10,7 @@ function navbar(){
                 <li><a href=""><i class="fa-solid fa-hourglass-half"></i>Track Projects</a></li>
                 <li><a href=""> <i class="fa-solid fa-people-group"></i>Track Teams</a></li>
                 <li><a href=""> <i class="fa-solid fa-chart-column"></i>Track Plans</a></li>
-                <li><a href=""><i class="fa-solid fa-handcuffs"></i>Integrations</a></li>
+                <li><a href="./intergrations.html"><i class="fa-solid fa-handcuffs"></i>Integrations</a></li>
                 <li><a href=""><i class="fa-solid fa-road-barrier"></i>Our privacy promise</a></li>
             </ul>
         </li>
@@ -29,7 +29,7 @@ function navbar(){
                 <li><a href=""><i class="fa-solid fa-person-digging"></i>Remote workers</a></li>
             </ul>
         </li>
-        <li><a href="">Pricing</a> </li>
+        <li><a href="pricing.html">Pricing</a> </li>
         <li><a href="">Resources ⌵</a>
             <ul>
                 <li><a href=""><i class="fa-solid fa-blog"></i>Blog</a></li>
