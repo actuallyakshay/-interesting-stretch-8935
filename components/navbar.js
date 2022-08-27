@@ -7,9 +7,9 @@ function navbar(){
         <li><a href="/">Features ⌵</a>
             <ul >
                 <li><a href="./trackTime.html"> <i class="fa-solid fa-stopwatch"></i>Track Time</a></li>
-                <li><a href=""><i class="fa-solid fa-hourglass-half"></i>Track Projects</a></li>
-                <li><a href=""> <i class="fa-solid fa-people-group"></i>Track Teams</a></li>
-                <li><a href=""> <i class="fa-solid fa-chart-column"></i>Track Plans</a></li>
+                <li><a href="./trackProject.html"><i class="fa-solid fa-hourglass-half"></i>Track Projects</a></li>
+                <li><a href="./trackTeams.html"> <i class="fa-solid fa-people-group"></i>Track Teams</a></li>
+                <li><a href="./trackPlans.html"> <i class="fa-solid fa-chart-column"></i>Track Plans</a></li>
                 <li><a href="./intergrations.html"><i class="fa-solid fa-handcuffs"></i>Integrations</a></li>
                 <li><a href=""><i class="fa-solid fa-road-barrier"></i>Our privacy promise</a></li>
             </ul>
@@ -32,8 +32,8 @@ function navbar(){
         <li><a href="pricing.html">Pricing</a> </li>
         <li><a href="">Resources ⌵</a>
             <ul>
-                <li><a href=""><i class="fa-solid fa-blog"></i>Blog</a></li>
-                <li><a href=""><i class="fa-solid fa-book"></i>Case studies</a></li>
+                <li><a href="./blog.html"><i class="fa-solid fa-blog"></i>Blog</a></li>
+                <li><a href="./case_studies.html"><i class="fa-solid fa-book"></i>Case studies</a></li>
                 <li><a href=""><i class="fa-solid fa-podcast"></i>Podcast</a></li>
                 <li><a href=""><i class="fa-solid fa-book-open"></i>Books</a></li>
                 <li><a href=""><i class="fa-solid fa-globe"></i>Webinars</a></li>

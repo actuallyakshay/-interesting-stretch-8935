@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Timely</title>
     <link rel="stylesheet" href="./style/navbar.css">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/footer.css">
+    <link rel="icon" type="image"
+        href="https://d1luwo5u9zpc4i.cloudfront.net/assets/memory_apps/timely_icon-0009454e9497f1cb2a0f9042037156a62c31421032858278d5002aae979084a2.svg">
     <script src="https://kit.fontawesome.com/cdebd35493.js" crossorigin="anonymous"></script>
 
 </head>
@@ -228,6 +230,10 @@
     import freeTrial from "./components/freeTrial.js"
 
     document.querySelector("#PART10").innerHTML = freeTrial()
+
+    document.querySelector("#start").addEventListener("click" , ()=>{
+        window.location.href = "./signup.html"
+    })
 
 
 
