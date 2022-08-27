@@ -10,6 +10,8 @@
     <title>Automatic Time Tracking</title>
     <link rel="stylesheet" href="/-interesting-stretch-8935/style/allNav.css">
     <link rel="stylesheet" href="./style/trackTime.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/index.css">
     <script src="https://kit.fontawesome.com/cdebd35493.js" crossorigin="anonymous"></script>
 </head>
 
@@ -141,6 +143,34 @@
             <p>Get a complete overview of your team’s time and performance.</p>
         </div>
     </div>
+
+    <div  id="flex7">
+        <div>
+            <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/62b3651fd96ad4e0c44915ed_TimeTracking_MostImplementable_Total.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/62b36657dfae2feee178fee9_TimeTracking_MomentumLeader_Leader.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/62b3651fc9eb5ab5b7d8536c_TimeTracking_Leader_Leader.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a3995b0a08af4da_loveus.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/62b3668136276388dc2815e8_TimeTracking_HighPerformer_Mid-Market_HighPerformer.svg" alt=""> </div>
+        <div>
+            <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/62b3651fdb7877357a9300c3_TimeTracking_BestUsability_Total.svg" alt=""> </div>
+        <div>
+            <img src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/62b3651fdfae2ff62378f39f_TimeTracking_BestRelationship_Total.svg" alt=""> </div>
+       
+
+    </div>
+
+    <div id="freetrialTrackTime" > </div>
+
+    <div id="FooterTracktime" ></div>
+
 </body>
 
 </html>
@@ -149,4 +179,12 @@
     import allnav from "./components/allNav.js"
 
     document.querySelector("#navbar").innerHTML = allnav();
+
+    import footer from "./components/footer.js"
+
+    document.querySelector("#FooterTracktime").innerHTML = footer()
+
+    import freeTrial from "./components/freeTrial.js"
+
+    document.querySelector("#freetrialTrackTime").innerHTML = freeTrial()
 </script>
