@@ -47,8 +47,8 @@ function footer() {
                                             <div class="f2">
                                                 <!-- data appended  -->
                                                 <p>Solutions </p>
-                                                <p><a href="">Consulting firms</a> </p>
-                                                <p><a href="">Agencies</a> </p>
+                                                <p><a href="./consulting.html">Consulting firms</a> </p>
+                                                <p><a href="./Agencies.html">Agencies</a> </p>
                                                 <p><a href="">Designers and creatives</a> </p>
                                                 <p><a href="">Lawyers</a> </p>
                                                 <p><a href="">Teams</a> </p>

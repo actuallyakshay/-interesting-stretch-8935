@@ -16,9 +16,9 @@ function navbar(){
         </li>
         <li><a href="">Solutions ⌵</a>
             <ul>
-                <li><a href=""><i class="fa-brands fa-wpforms"></i>Consulting Firms</a></li>
-                <li><a href=""><i class="fa-solid fa-building"></i>Software Companies</a></li>
-                <li><a href=""><i class="fa-solid fa-people-group"></i>Agencies</a></li>
+                <li><a href="./consulting.html"><i class="fa-brands fa-wpforms"></i>Consulting Firms</a></li>
+                <li><a href="./softwarecompanies.html"><i class="fa-solid fa-building"></i>Software Companies</a></li>
+                <li><a href="./Agencies.html"><i class="fa-solid fa-people-group"></i>Agencies</a></li>
                 <li><a href=""><i class="fa-solid fa-compass-drafting"></i>Designers & Creatives</a></li>
                 <li><a href=""><i class="fa-solid fa-scale-balanced"></i>Lawyers</a></li>
                 <li><a href=""><i class="fa-solid fa-blender-phone"></i>Accountants</a></li>
