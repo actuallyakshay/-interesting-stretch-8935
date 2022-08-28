@@ -75,5 +75,9 @@ body {
 #middle>div>h2 {
     margin-left: 30px;
     color: #001141;
-    line-height: 10px;
+    line-height: 30px;
+}
+
+#middle>div>p+p{
+      margin-top:20px;
 }
