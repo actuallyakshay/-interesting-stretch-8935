@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <link rel="stylesheet" href="./style/blog.css">
+     <link rel="stylesheet" href="./style/allNav.css">
+     <link rel="stylesheet" href="./style/footer.css">
+     <link rel="stylesheet" href="./style/index.css">
+  
      <link rel="icon" type="image"
      href="https://d1luwo5u9zpc4i.cloudfront.net/assets/memory_apps/timely_icon-0009454e9497f1cb2a0f9042037156a62c31421032858278d5002aae979084a2.svg">
 </head>
-<body><div id="container">
+<body>
+      <div id="navbar"></div>
+
       <div id="top">
-        <h1>Timely Blog</h1>
-        <p>Your partner in time</p>
-    </div>
-     <div id="new">
+           <h1>Timely Blog</h1>
+           <p>Your partner in time</p>
+      </div>
+
+      <div id="new">
+        <img src="https://assets-global.website-files.com/6257f2528a399501d48af28d/62fcebf839a8411ce9493943_Timely-product-update-summer-22-p-500.png" alt="">
         
-        <img src="https://assets-global.website-files.com/6257f2528a399501d48af28d/62fcebf839a8411ce9493943_Timely-product-update-summer-22-p-800.png" alt="">
-      
         <div id="micro">
-       <h1>What's new:A summer glow-up for Timely reports</h1>
+        <h1>What's new: A summer glow-up for Timely reports</h1>
         <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/153/sparkles_2728.png" alt="">
-    
-        <p>Percentage of time and money now available in donut reports,the ability to pin frequently-used <br>reports,and more</p>
+        <p>Percentage of time and money now avaolable in donut reports,the ability to pin frequently-used reports,and more,</p>
+      </div>
     </div>
-   </div>
+       
 </div>
      <div id=color>
   <div id="middle">
@@ -33,8 +39,28 @@
       
       <button>More  ></button> 
     </div>
+      <div id="freetrial"></div>
+      <div id="footerMemory"></div>
 </body>
  
 </html>
 
-  <script src="./scripts/blog.js"></script>
+
+  
+<script src="./scripts/blog.js"></script>
+
+<script type="module">
+
+  import allnav from "./components/allNav.js"
+
+  document.querySelector("#navbar").innerHTML = allnav();
+
+  import footer from "./components/footer.js"
+
+document.querySelector("#footerMemory").innerHTML = footer();
+
+import freeTrial from "./components/freeTrial.js"
+
+document.querySelector("#freetrial").innerHTML = freeTrial()
+
+  </script>
