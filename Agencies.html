@@ -10,6 +10,7 @@
 
     <title>About Memory</title>
     <link rel="stylesheet" href="./style/memory.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="./style/consulting.css">
     <script src="https://kit.fontawesome.com/cdebd35493.js" crossorigin="anonymous"></script>
 </head>
@@ -36,7 +37,7 @@
         <div class="input">
             <div class="input2">
                 <input type="text" placeholder="Enter your work email" class="email">
-            <button class="btn">Start my free trial</button>
+                <button class="btn">Start my free trial</button>
             </div>
         </div>
         <div id="trial">Free 14-day trial — No credit cards needed</div>
@@ -142,7 +143,7 @@
 
                 <div class="section4">
 
-                 <div class="container4">
+                    <div class="container4">
                         <div class=" stack_connect">
                             <div class="circle">
 
@@ -241,9 +242,12 @@
                     </div>
                 </div>
 
+                <div id="FOOTER">
 
-             
-                    <!-- <div class="foot_lay">
+                </div>
+
+
+                <!-- <div class="foot_lay">
                         <div class="foot_icons">
                             <div class="div-block-382"><a href="/about"
                                 class="timely-logo-footer w-inline-block"><img
@@ -340,9 +344,9 @@
                             </div>
                         </div>
                     </div> -->
-                </div>
-
             </div>
+
+        </div>
 
 
 </body>
@@ -352,5 +356,9 @@
 
     import navbar from "./components/navbar.js"
     document.querySelector("#Navbar").innerHTML = navbar();
+
+    import footer from "./components/footer.js"
+
+    document.querySelector("#FOOTER").innerHTML = footer()
 
 </script>
